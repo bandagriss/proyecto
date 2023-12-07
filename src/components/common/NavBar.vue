@@ -1,8 +1,8 @@
 <template>
-  <div>
-    <div class="navbar space-x-2 bg-info">
+  <div class="flex">
+    <div class="navbar space-x-2 bg-white">
       <div class="flex-1">
-        <a class="btn btn-ghost text-xl">daisyUI</a>
+        <a class="btn btn-ghost text-xl">Proyecto 1</a>
       </div>
       <div>
         <label class="swap swap-rotate">
