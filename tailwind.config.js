@@ -9,10 +9,17 @@ export const daisyui = {
   themes: [
     {
       myTheme: {
-        primary: '#0052CC',
+        primary: '#fff',
         secondary: '#0086FF',
         accent: '#37cdbe',
         neutral: '#3d4451',
+        'base-100': '#ffffff'
+      },
+      myThemeDark: {
+        primary: '#13678A',
+        secondary: '#45C4B0',
+        accent: '#9AEBA3',
+        neutral: '#DAFDBA',
         'base-100': '#ffffff'
       }
     },

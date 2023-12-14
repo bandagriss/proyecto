@@ -1,5 +1,5 @@
 <template>
-  <div class="w-screen h-screen">
+  <div class="w-screen h-screen bg-primary">
     <NavBar class="bg-white h-[8%]"></NavBar>
     <div class="bg-[#f2f5fc] w-full h-[92%] flex overflow-y-auto">
       <div class="w-[17rem] flex-none border-r-[0.125rem] border-slate-200">
@@ -19,10 +19,12 @@
 </template>
 
 <script setup lang="ts">
+import { onMounted } from 'vue'
 import NavBar from '@/components/common/NavBar.vue'
 import SideBar from '@/components/common/SideBar.vue'
 import MenuSideBar from '@/components/common/MenuSideBar.vue'
 import ContaintBase from '@/components/common/ContaintBase.vue'
+import { themeChange } from 'theme-change'
 
 const menus = [
   {
@@ -56,4 +58,8 @@ const menus = [
     name: 'Configuración'
   }
 ]
+
+onMounted(() => {
+  themeChange(false)
+})
 </script>

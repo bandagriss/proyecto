@@ -5,7 +5,7 @@
       class="p-4 hover:bg-primary/70 cursor-pointer rounded-2xl flex mt-0.5"
       :class="
         $router.currentRoute.value.fullPath === data.url
-          ? 'bg-primary text-white'
+          ? 'bg-primary text-neutral'
           : 'text-gray-400 hover:text-white'
       "
     >
