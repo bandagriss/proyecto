@@ -9,18 +9,20 @@ export const daisyui = {
   themes: [
     {
       myTheme: {
-        primary: '#fff',
-        secondary: '#0086FF',
-        accent: '#37cdbe',
+        primary: '#00C8BA',
+        secondary: '#486DE7',
+        warning: '#E68048',
         neutral: '#3d4451',
-        'base-100': '#ffffff'
+        'base-100': '#ffffff',
+        'base-200': '#c0bfc9'
       },
       myThemeDark: {
-        primary: '#13678A',
-        secondary: '#45C4B0',
-        accent: '#9AEBA3',
+        primary: '#00C8BA',
+        secondary: '#486DE7',
+        warning: '#E68048',
         neutral: '#DAFDBA',
-        'base-100': '#ffffff'
+        'base-100': '#183361',
+        'base-200': '#7272f3'
       }
     },
     'light',
@@ -28,7 +30,7 @@ export const daisyui = {
     'cupcake',
     'bumblebee'
   ],
-  darkTheme: 'dark',
+  // darkTheme: 'dark',
   base: true,
   styled: true,
   utils: true,
